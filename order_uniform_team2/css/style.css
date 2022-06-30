@@ -1,0 +1,414 @@
+body {
+
+	width: 950px;
+	height: auto;
+	margin: auto;
+	word-break: break-all;
+	min-height: 1250px;
+background-image: url(../img/4.png);
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+position:rerative;
+top:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+/*background-image: url("dog.jpg");
+		background-image: url(dog.jpg);
+		background-image: url(img/dog.jpg);
+background-size: cover;*/
+
+.alert-primary{
+	width:45%;
+	margin:15px 0 0 auto;
+}
+.alert-success{
+	width:45%;
+	margin:15px 0 0 auto;
+}
+.alert-secondary{
+	text-align:center;
+	margin:100px auto;
+	width:60%;
+
+}
+.top_img{
+background: linear-gradient(to bottom, transparent 0%, transparent 100%, #fff 100%), url(../img/2.png);
+width:950px;
+height:600px;
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+box-shadow: inset 0 0 15px 20px #FFF;
+
+}
+.error_wrapper{
+	text-align:center;
+	width:100%;
+	height:100px;
+	background-color:red ;
+	color:white;
+	margin-bottom: 50px;
+
+}
+.error_p{
+	font-size:24px;
+	font-weight:bold ;
+}
+.error a{
+	font-size: 20px;
+
+}
+/*productList/ユニフォーム一覧*/
+.productList_wrapper {
+	margin-top: 70px;
+}
+
+.card {
+	width: 170px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #ccc;
+	float: left;
+	margin: 10px;
+}
+
+section.card {
+	margin: 10px;
+}
+
+.card-img {
+	border-radius: 5px 5px 0 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.card-content {
+	padding: 15px;
+}
+
+.card-title {
+	font-size: 17px;
+	margin-bottom: 13px;
+	text-align: center;
+	color: #333;
+}
+
+.card-text {
+	color: #777;
+	font-size: 13px;
+	line-height: 1.3;
+}
+
+.card-link {
+	text-align: center;
+	border-top: 1px solid #eee;
+	padding: 15px;
+}
+
+.card-link a {
+	text-decoration: none;
+	color: #0bd;
+}
+
+.card-link a:hover {
+	color: #0090aa;
+}
+/*productList/ユニフォーム一覧*/
+
+/*productForm/購入情報入力*/
+.productForm_title {
+	margin-top: 50px;
+	color: #0d6efd;
+}
+
+.uniform_title {
+	font-size: 17px;
+}
+
+.product_form {
+	margin: 0 auto;
+}
+
+label {
+	position: relative;
+	left: -100px;
+}
+
+form {
+	margin: 0 auto;
+}
+
+.product_input {
+	position: relative;
+	width: 40%;
+	margin: 30px auto;
+}
+
+.product_input input {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	padding: 0.3em;
+	padding-left: 35px;
+	letter-spacing: 1px;
+	border: 0;
+	outline: none;
+}
+
+.product_input input[type='text' i ]:focus {
+	outline: none;
+}
+
+.product_input input[type='number' i ]:focus {
+	outline: none;
+}
+
+.product_input input[type='password' i]:focus: {
+	outline: none;
+}
+
+.product_input input[type='text' i]:focus::after {
+	outline: none;
+}
+
+.product_input input[type='number' i]:focus::after {
+	outline: none;
+}
+
+.product_input input[type='password' i]:focus::after {
+	outline: none;
+}
+
+.product_input i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 9px 5px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+
+.product_textarea {
+	position: relative;
+	width: 40%;
+	margin: 40px auto 100px;
+}
+
+.product_input::after {
+	display: block;
+	width: 100%;
+	height: 4px;
+	margin-top: -1px;
+	content: '';
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.product_btn {
+	position: absolute;
+	right: 47%;
+}
+
+textarea:focus {
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+	border: solid 4px #000000;
+}
+
+/*productForm/購入情報入力*/
+
+/*insert_Cart/カート追加*/
+.insertCart_comment {
+	margin-top: 35px;
+}
+
+.insert_cart_th {
+	padding: 10px;
+	width: 50%;
+	font-size: 18px;
+	border-bottom: solid 3px #0d6efd;
+	color: #0d6efd;
+	text-align: center;
+}
+
+.insert_cart_td {
+	padding: 10px;
+	font-size: 18px;
+	border-bottom: solid 3px #0d6efd;
+	text-align: center;
+	height: 70px;
+}
+.detailOrderedInfo_wrapper .insert_cart_th{
+	font-size: 17px;
+	border-bottom: solid 3px #28a745;
+	text-align: center;
+	height: 70px;
+	color:#28a745;
+}
+.detailOrderedInfo_wrapper .insert_cart_td{
+	width: 50%;
+	font-size: 17px;
+	border-bottom: solid 3px #28a745;
+	color: #000000;
+	text-align: center;
+}
+.insert_btn {
+	position: absolute;
+	top: 275px;
+	right: 450px;
+}
+
+.insert_btn_return {
+	position: absolute;
+	top: 275px;
+	right: 380px;
+}
+/*show_Cart/カート内表示*/
+.showCart_wrapper {
+	margin-top: 50px;
+}
+
+.show_table {
+	text-align: center;
+	height: 80px;
+	position: relative;
+}
+
+.show_cart_tr {
+	height: 50px;
+}
+
+.show_cart_btn {
+	position: absolute;
+	right: 22%;
+}
+
+.memo {
+	overflow-wrap: break-word;
+}
+/*show_Cart/カート内表示*/
+
+/*buyConfirm/購入*/
+.buy_table {
+	font-size: 24px;
+	text-align: center;
+}
+
+.buyConfirm_wrapper {
+	margin-top: 50px;
+}
+
+/*buyConfirm/購入*/
+
+/*button関係/admin*/
+@import
+	url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+.admin_button a {
+	display: inline-block;
+	font: normal normal 300 1.9em 'Open Sans';
+	text-decoration: none;
+	color: rgba(28, 190, 131, 1);
+	brackground-color: transparent;
+	border: 1px solid rgba(28, 190, 131, 1);
+	border-radius: 100px;
+	padding: .3em 1.2em;
+	margin: 50px 5px 5px 5px;
+	background-size: 200% 100%;
+	background-image: linear-gradient(to right, transparent 50%, rgba(28, 190, 131, 1)
+		50%);
+	transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s,
+		color .5s ease 0s, background-color .5s ease;
+}
+
+.admin_button a:hover {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(28, 190, 131, 1);
+	background-position: -100% 100%;
+}
+
+.admin_button button {
+	display: inline-block;
+	font: normal normal 300 1.9em 'Open Sans';
+	text-decoration: none;
+	color: rgba(28, 190, 131, 1);
+	brackground-color: transparent;
+	border: 1px solid rgba(28, 190, 131, 1);
+	border-radius: 100px;
+	padding: .3em 1.2em;
+	margin: 50px 5px 5px 5px;
+	background-size: 200% 100%;
+	background-image: linear-gradient(to right, transparent 50%, rgba(28, 190, 131, 1)
+		50%);
+	transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s,
+		color .5s ease 0s, background-color .5s ease;
+}
+
+.admin_button button:hover {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(28, 190, 131, 1);
+	background-position: -100% 100%;
+}
+
+.admin_button_uni button {
+	display: inline-block;
+	font: normal normal 300 1.9em 'Open Sans';
+	text-decoration: none;
+	color: #0d6efd;
+	brackground-color: transparent;
+	border: 1px solid #0d6efd;
+	border-radius: 100px;
+	padding: .3em 1.2em;
+	margin: 50px 5px 5px 5px;
+	background-size: 200% 100%;
+	background-image: linear-gradient(to right, transparent 50%, #0d6efd 50%);
+	transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s,
+		color .5s ease 0s, background-color .5s ease;
+}
+
+.admin_button_uni button:hover {
+	color: rgba(255, 255, 255, 1);
+	background-color: #0d6efd;
+	background-position: -100% 100%;
+}
+
+.admin_button {
+	margin-top: 50px;
+}
+
+.admin_button_uni {
+	margin-top: 60px;
+}
+
+/*button関係/admin*/
+
+
+/*login/管理者ログイン*/
+.login_wrapper{
+	margin-top:100px;
+
+}
+/*login/管理者ログイン*/
+
+/*showOrdered.detailOrdered/受注一覧、詳細（）*/
+.showOrderList_wrapper{
+	margin-top:70px;
+}
+.detailOrderedInfo_wrapper{
+	margin-top:70px;
+}
+
+/*showOrdered.detailOrdered/受注一覧、詳細（）*/
+
+
+.is-error{
+	color:red;
+}
+
+.is-error-name{
+	color:red;
+}

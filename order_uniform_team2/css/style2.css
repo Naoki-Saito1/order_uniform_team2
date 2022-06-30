@@ -1,0 +1,117 @@
+.menu>li.menu__single {
+	position: relative;
+}
+
+li.menu__single ul.menu__second-level {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	background: #072A24;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+li.menu__single:hover ul.menu__second-level {
+	top: 50px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.menu {
+	position: relative;
+	height: 50px;
+	max-width: 950px;
+	margin: 0 auto;
+	padding:0;
+}
+
+.menu>li {
+	float: left;
+	width: 50%; /* グローバルナビ4つの場合 */
+	height: 50px;
+	line-height: 50px;
+	background: rgb(29, 33, 19);
+	list-style: none;
+}
+
+.menu>li a {
+	display: block;
+	color: #fff;
+}
+
+.menu>li a:hover {
+	color: #999;
+}
+
+ul.menu__second-level {
+	visibility: hidden;
+	opacity: 0;
+	z-index: 1;
+}
+
+ul.menu__third-level {
+	visibility: hidden;
+	opacity: 0;
+}
+
+ul.menu__fourth-level {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.menu>li:hover {
+	background: #072A24;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.menu__second-level li a:hover {
+	background: #111;
+}
+
+.menu__third-level li a:hover {
+	background: #2a1f1f;
+}
+
+.menu__fourth-level li a:hover {
+	background: #1d0f0f;
+}
+
+/* 下矢印 */
+.init-bottom:after {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	margin: 0 0 0 15px;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* floatクリア */
+.menu:before, .menu:after {
+	content: " ";
+	display: table;
+}
+
+.menu:after {
+	clear: both;
+}
+
+.title_img{
+	margin: 0 auto;
+	padding-left: 20%;
+	padding-right: 70%;
+}
+.footer {
+	position: absolute;
+	width: 950px;
+	bottom: -300px;
+	border-top: 2px solid #000000;
+	text-align: center;
+	padding: 10px;
+	color: #000000;
+	font-weight: bold;
+	margin: 0 auto;
+}
